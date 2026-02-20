@@ -32,6 +32,17 @@ namespace libCuentaBanc.dll
         public string Error { get { return strError; } set { strError = value; } }
         #endregion
 
+        #region Métodos
+        public bool Crear() 
+        {
+            return false;
+        }
+
+        public bool Buscar()
+        {
+            return true;
+        }
+        #endregion
 
     }
 }
