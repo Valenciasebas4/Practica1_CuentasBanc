@@ -21,6 +21,16 @@ namespace libCuentaBanc.dll
 
         #endregion
 
+        #region Propiedades
+        // se usa GET para salida y SET para entrada
+        public int NroCta { get { return intNroCta; } } 
+        public string FecCreac { get { return strFecCreac; } }
+        public int TipoDoc { get { return intTipoDoc; } set { intTipoDoc = value; } }
+        public int NroDcto { get { return intNroDcto; } set { intNroDcto = value; } }
+        public string Titular { get { return strTitular; } set { strTitular = value; } }
+        public float FltSaldo { get { return fltSaldo; } set { fltSaldo = value; } }
+        public string Error { get { return strError; } set { strError = value; } }
+        #endregion
 
 
     }
