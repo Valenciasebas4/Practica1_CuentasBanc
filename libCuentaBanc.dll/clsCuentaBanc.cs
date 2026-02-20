@@ -44,5 +44,14 @@ namespace libCuentaBanc.dll
         }
         #endregion
 
+
+    }
+
+    public abstract class clsTipo : clsCuenta 
+    {
+        #region Métodos
+        public abstract bool Deposito(int nroCta, float valor);
+        public abstract bool Retiro(int nroCta, float valor);
+        #endregion
     }
 }
